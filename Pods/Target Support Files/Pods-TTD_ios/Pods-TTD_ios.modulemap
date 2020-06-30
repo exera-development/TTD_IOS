@@ -1,0 +1,6 @@
+module Pods_TTD_ios {
+  umbrella header "Pods-TTD_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

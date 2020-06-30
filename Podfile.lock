@@ -1,0 +1,293 @@
+PODS:
+  - BoringSSL-GRPC (0.0.3):
+    - BoringSSL-GRPC/Implementation (= 0.0.3)
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Implementation (0.0.3):
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Interface (0.0.3)
+  - Firebase/Analytics (6.10.0):
+    - Firebase/Core
+  - Firebase/Core (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.3)
+  - Firebase/CoreOnly (6.10.0):
+    - FirebaseCore (= 6.3.1)
+  - Firebase/Database (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.1.1)
+  - FirebaseAnalytics (6.1.3):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - FirebaseAuth (6.3.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.3.1):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.1.1):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseDatabase (6.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseFirestore (1.6.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - FirebaseFirestore/abseil-cpp (= 1.6.0)
+    - "gRPC-C++ (= 0.0.9)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 0.3.901)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseFirestore/abseil-cpp (1.6.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - "gRPC-C++ (= 0.0.9)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 0.3.901)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseInstanceID (4.2.5):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - GoogleAppMeasurement (6.1.3):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - GoogleDataTransport (3.0.1)
+  - GoogleDataTransportCCTSupport (1.2.1):
+    - GoogleDataTransport (~> 3.0)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.5.0):
+    - GoogleMaps/Maps (= 3.5.0)
+  - GoogleMaps/Base (3.5.0)
+  - GoogleMaps/Maps (3.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.5.0):
+    - GoogleMaps/Base (= 3.5.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.1)
+  - GoogleUtilities/Logger (6.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.1)"
+  - GoogleUtilities/Reachability (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.1):
+    - GoogleUtilities/Logger
+  - "gRPC-C++ (0.0.9)":
+    - "gRPC-C++/Implementation (= 0.0.9)"
+    - "gRPC-C++/Interface (= 0.0.9)"
+  - "gRPC-C++/Implementation (0.0.9)":
+    - "gRPC-C++/Interface (= 0.0.9)"
+    - gRPC-Core (= 1.21.0)
+    - nanopb (~> 0.3)
+  - "gRPC-C++/Interface (0.0.9)"
+  - gRPC-Core (1.21.0):
+    - gRPC-Core/Implementation (= 1.21.0)
+    - gRPC-Core/Interface (= 1.21.0)
+  - gRPC-Core/Implementation (1.21.0):
+    - BoringSSL-GRPC (= 0.0.3)
+    - gRPC-Core/Interface (= 1.21.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.21.0)
+  - GTMSessionFetcher/Core (1.2.2)
+  - Haptico (1.0.2)
+  - IQKeyboardManagerSwift (6.5.1)
+  - leveldb-library (1.22)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - OneSignal (2.11.2)
+  - Protobuf (3.10.0)
+  - PTCardTabBar (1.0.1)
+  - Pulsator (0.6.0)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - ReachabilitySwift (4.3.1)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxFirebase/Auth (0.3.8):
+    - RxFirebaseAuthentication (~> 0.3)
+  - RxFirebase/Database (0.3.8):
+    - RxFirebaseDatabase (~> 0.3)
+  - RxFirebase/Firestore (0.3.8):
+    - RxFirebaseFirestore (~> 0.3)
+  - RxFirebaseAuthentication (0.3.8):
+    - FirebaseAuth (~> 6)
+    - FirebaseCore (~> 6)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxFirebaseDatabase (0.3.8):
+    - FirebaseDatabase (~> 6)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxFirebaseFirestore (0.3.8):
+    - FirebaseFirestore (~> 1.5)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxGoogleMaps (4.0.0):
+    - GoogleMaps (~> 3)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxReachability (1.0.0):
+    - ReachabilitySwift (~> 4.3.1)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Firebase/Analytics
+  - Firebase/Database
+  - GoogleMaps
+  - GooglePlaces
+  - Haptico
+  - IQKeyboardManagerSwift
+  - Material (~> 3.1.0)
+  - OneSignal (< 3.0, >= 2.6.2)
+  - PTCardTabBar
+  - Pulsator
+  - R.swift (~> 5.0.1)
+  - RxCocoa (~> 5)
+  - RxFirebase/Auth
+  - RxFirebase/Database
+  - RxFirebase/Firestore
+  - RxGoogleMaps
+  - RxReachability
+  - RxSwift (~> 5)
+  - SnapKit (~> 5.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BoringSSL-GRPC
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
+    - FirebaseFirestore
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - "gRPC-C++"
+    - gRPC-Core
+    - GTMSessionFetcher
+    - Haptico
+    - IQKeyboardManagerSwift
+    - leveldb-library
+    - Material
+    - Motion
+    - nanopb
+    - OneSignal
+    - Protobuf
+    - PTCardTabBar
+    - Pulsator
+    - R.swift
+    - R.swift.Library
+    - ReachabilitySwift
+    - RxCocoa
+    - RxFirebase
+    - RxFirebaseAuthentication
+    - RxFirebaseDatabase
+    - RxFirebaseFirestore
+    - RxGoogleMaps
+    - RxReachability
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
+  Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
+  FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
+  FirebaseAuth: c66e990f79d1d3429165391f6cd70ace6143c25e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 064c2dd92a8ca5974bbdcb080df9921e46bd34cd
+  FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
+  FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseDatabase: 524802f7694268c79d34aeac3d67997593e1a0c9
+  FirebaseFirestore: 5a9e9a14305336e8d1a4f915a45ecf0f5d6dcaec
+  FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
+  GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
+  GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
+  GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
+  GoogleMaps: 32ca02de09de357a10ac773f2c70f1986751392d
+  GooglePlaces: be6f19fe8aa6ff0b5bcccfa1b8805cc977ea1450
+  GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  "gRPC-C++": 9dfe7b44821e7b3e44aacad2af29d2c21f7cde83
+  gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  Haptico: ce38d1f993f3a0df9a6d7795a9dd2849648aa9d1
+  IQKeyboardManagerSwift: 9ac7524fad9f9fe9a3b98c927e7772471ca546d2
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  OneSignal: 4e3e68bb6c29975286a2fa910cb49132bc6e20bb
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  PTCardTabBar: 9112a6d4eb2b73da9cf4e7f3aefe04504479cf98
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxFirebase: 45e6448c69c7212e21f8ba89144443f916437861
+  RxFirebaseAuthentication: 5d0573fd641947ed857346624d1c849bbd86bdff
+  RxFirebaseDatabase: 5c1d3d31c9858f05ff6ad92e5b4b696354d1497b
+  RxFirebaseFirestore: edabc5e6b02bd876a323a0e53cb5071356505db2
+  RxGoogleMaps: 5d8a91a26dc9e3f703c5be09424e3ecf7f607328
+  RxReachability: 21d3e96f39bc166a21c357e923f47dec148ca97b
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: e87ebdae5623e56dc0dfa6b0e853e1911bc68f86
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,26 @@
+/* 
+ Localizable.strings
+ TTD_ios
+ 
+ Created by Attila Janosi on 28/09/2019.
+ Copyright © 2019 EXERA SOTDEVELOP SRL. All rights reserved.
+ */
+"locked" = "LOCKED";
+"unlocked" = "UNLOCKED";
+"state_low" = "LOW";
+"state_full" = "FULL";
+"state_charging" = "CHARGING";
+"state_discharging" = "DISCHARGING";
+"loading" = "Loading";
+"still" = "STILL";
+"moving" = "MOVING";
+"online" = "ONLINE";
+"offline" = "OFFLINE";
+"cell" = "CELL";
+"wifi" = "WIFI";
+"excelent" = "EXCELENT";
+"good" = "GOOD";
+"weak" = "WEAK";
+"very_weak" = "VERY WEAK";
+"live" = "LIVE";
+"history" = "HISTORY";
